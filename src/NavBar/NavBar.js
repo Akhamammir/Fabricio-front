@@ -29,6 +29,9 @@ class NavBar extends React.Component {
                   <Nav.Item eventKey="1" icon={<Icon icon="dashboard" /> } onClick={()=>this.Routes('home')}>
                     Dashboard
                   </Nav.Item>
+                  <Nav.Item eventKey="4" icon={<Icon icon="group" /> } onClick={()=>this.Routes('results')}>
+                    Result
+                  </Nav.Item>
                   <Nav.Item eventKey="2" icon={<Icon icon="group" />} onClick={this.Users} >
                     User Group
                   </Nav.Item>

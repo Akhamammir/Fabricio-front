@@ -202,6 +202,7 @@ class FODA extends React.Component {
                   componentClass="textarea"
                   rows={3}
                   style={{ width: "100%", resize: 'auto' }}
+                  value = {this.state.ans.change}
                   placeholder="Que quiero cambiar?"
                 />
                 <br/>

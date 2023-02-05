@@ -16,6 +16,7 @@ import LINE from './LINE/LINE'
 import TIME from './TIME/TIME'
 import EMOT from './EMOT/EMOT'
 import ADET from './ADET/ADET'
+import Result from './Result/Result'
 
 
 class Main extends React.Component {
@@ -26,6 +27,8 @@ class Main extends React.Component {
           <Route exact path="/" render = {(props) => <Login {...props}/> }>
           </Route>
           <Route path="/home/:Usr" render = {(props) => <Home {...props}/>} >
+          </Route>
+          <Route path="/results/:Usr" render = {(props) => <Result {...props}/>} >
           </Route>
           <Route path="/users/:Usr" render = {(props) => <User {...props}/>} >
           </Route>
